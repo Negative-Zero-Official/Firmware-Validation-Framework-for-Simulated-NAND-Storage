@@ -1,5 +1,3 @@
-import random
-
 class NANDSimulator:
     def __init__(self, num_blocks=16, pages_per_block=4):
         self.num_blocks = num_blocks
