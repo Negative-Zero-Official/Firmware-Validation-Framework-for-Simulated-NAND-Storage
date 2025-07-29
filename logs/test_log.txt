@@ -1,0 +1,13 @@
+2025-07-29 14:21:56,515 - INFO - Initialized NANDSimulator for test.
+2025-07-29 14:21:56,516 - INFO - Running test_basic_read_write...
+2025-07-29 14:21:56,516 - INFO - test_basic_write_read passed.
+2025-07-29 14:21:56,516 - INFO - Initialized NANDSimulator for test.
+2025-07-29 14:21:56,516 - INFO - Running test_erase_block...
+2025-07-29 14:21:56,516 - INFO - test_erase_block passed.
+2025-07-29 14:21:56,516 - INFO - Initialized NANDSimulator for test.
+2025-07-29 14:21:56,516 - INFO - Running read_unwritten_page...
+2025-07-29 14:21:56,516 - INFO - test_read_unwritten_page passed.
+2025-07-29 14:21:56,518 - INFO - ========== Test run complete ==========
+2025-07-29 14:21:56,519 - INFO - Total: 3, Failures: 0, Errors: 0
+2025-07-29 14:21:56,519 - INFO - =======================================
+
