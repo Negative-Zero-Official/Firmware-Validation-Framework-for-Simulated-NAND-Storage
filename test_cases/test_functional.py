@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 class TestFunctional(unittest.TestCase):
     def setUp(self):
         self.nand = NANDSimulator()
-        logger.info("Initialized NANDSimulator for test.")
+        logger.info("Initialized NANDSimulator for functional test.")
     
     def test_basic_write_read(self):
         logger.info("Running test_basic_read_write...")

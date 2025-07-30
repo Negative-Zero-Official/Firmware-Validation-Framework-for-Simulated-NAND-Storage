@@ -1,4 +1,4 @@
 # Test Summary
-- Total Tests: 3
+- Total Tests: 7
 - Failures: 0
 - Errors: 0
