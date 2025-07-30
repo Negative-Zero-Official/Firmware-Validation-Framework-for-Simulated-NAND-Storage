@@ -36,3 +36,34 @@
 2025-07-30 12:45:53,801 - INFO - Total: 7, Failures: 0, Errors: 0
 2025-07-30 12:45:53,801 - INFO - =======================================
 
+2025-07-30 13:00:00,511 - INFO - Initialized NANDSimulator for edge cases test.
+2025-07-30 13:00:00,512 - INFO - Running test_block_out_of_bounds...
+2025-07-30 13:00:00,513 - INFO - Caught expected error: Block index out of range.
+2025-07-30 13:00:00,513 - INFO - Initialized NANDSimulator for edge cases test.
+2025-07-30 13:00:00,513 - INFO - Running test_overwrite_without_erase...
+2025-07-30 13:00:00,513 - INFO - Caught expected error: Cannot overwrite: Page already written. Must erase block first.
+2025-07-30 13:00:00,513 - INFO - Initialized NANDSimulator for edge cases test.
+2025-07-30 13:00:00,513 - INFO - Running test_page_out_of_bounds...
+2025-07-30 13:00:00,513 - INFO - Caught expected error: Page index out of range.
+2025-07-30 13:00:00,514 - INFO - Initialized NANDSimulator for edge cases test.
+2025-07-30 13:00:00,514 - INFO - Running test_write_to_bad_block...
+2025-07-30 13:00:00,514 - INFO - Caught expected error: Write failed: Block 3 is marked as bad.
+2025-07-30 13:00:00,514 - INFO - Initialized NANDSimulator for functional test.
+2025-07-30 13:00:00,514 - INFO - Running test_basic_read_write...
+2025-07-30 13:00:00,514 - INFO - test_basic_write_read passed.
+2025-07-30 13:00:00,514 - INFO - Initialized NANDSimulator for functional test.
+2025-07-30 13:00:00,514 - INFO - Running test_erase_block...
+2025-07-30 13:00:00,514 - INFO - test_erase_block passed.
+2025-07-30 13:00:00,514 - INFO - Initialized NANDSimulator for functional test.
+2025-07-30 13:00:00,514 - INFO - Running read_unwritten_page...
+2025-07-30 13:00:00,515 - INFO - test_read_unwritten_page passed.
+2025-07-30 13:00:00,515 - INFO - Initialized NANDSimulator for stress test.
+2025-07-30 13:00:00,515 - INFO - Running test_full_write_read_cycle...
+2025-07-30 13:00:00,515 - INFO - test_full_write_read_cycle passed.
+2025-07-30 13:00:00,515 - INFO - Initialized NANDSimulator for stress test.
+2025-07-30 13:00:00,515 - INFO - Running test_mass_erase...
+2025-07-30 13:00:00,515 - INFO - test_mass_erase passed.
+2025-07-30 13:00:00,518 - INFO - ========== Test run complete ==========
+2025-07-30 13:00:00,518 - INFO - Total: 9, Failures: 0, Errors: 0
+2025-07-30 13:00:00,518 - INFO - =======================================
+
